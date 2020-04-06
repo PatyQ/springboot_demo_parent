@@ -1,0 +1,15 @@
+server:
+  port: 10000
+
+spring:
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/db_stu?characterEncoding=utf-8
+
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+#  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.jm.pojo
